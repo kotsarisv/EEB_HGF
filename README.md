@@ -64,6 +64,8 @@ This code supports the following analyses:
 ###  `hr_analysis/`
 - `evoked_hr.m`: detects R-peaks and extracts inter-beat intervals (IBI) and evoked heart rates
   - Outputs metrics for initial deceleration, final acceleration, and overall IBI response
+- `physio_analysis_HRA_HGF.R`: performs statistical analysis linking evoked heart rate acceleration (HRA) to HGF-derived learning rates and volatility estimates (WT2, WT3, M2, M3) using mixed models and subject-wise regressions
+
 
 ---
 
